@@ -10,4 +10,4 @@ def hello(array)
   collection
 end
 
-puts(hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }).inspect
+myArray = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" })
