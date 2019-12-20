@@ -10,5 +10,9 @@ def hello(array)
   collection
 end
 
+def show_array
+  return [1, 2, 3]
+end
+
 myArray = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 puts(myArray).to_s
