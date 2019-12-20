@@ -10,5 +10,5 @@ def hello(array)
   collection
 end
 
-myArray = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" })
+myArray = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 puts(myArray)
