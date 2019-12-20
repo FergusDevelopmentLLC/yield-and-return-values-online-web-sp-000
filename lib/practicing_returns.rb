@@ -11,3 +11,4 @@ def hello(array)
 end
 
 myArray = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" })
+puts(myArray)
